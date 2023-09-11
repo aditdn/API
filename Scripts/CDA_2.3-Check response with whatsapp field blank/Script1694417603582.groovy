@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def response = WS.sendRequest(findTestObject('CDA_2.3-Update Profile change whatsapp into blank'))
+def response = WS.sendRequest(findTestObject('CDA_2.3-Check response with whatsapp field blank'))
 
 WS.verifyResponseStatusCode(response, 400)
 

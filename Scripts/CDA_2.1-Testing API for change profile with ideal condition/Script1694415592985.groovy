@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('CDA_2.1-Update Profile'))
+response = WS.sendRequest(findTestObject('CDA_2.1-Testing API for change profile with ideal condition'))
 
 WS.verifyResponseStatusCode(response, 200)
 

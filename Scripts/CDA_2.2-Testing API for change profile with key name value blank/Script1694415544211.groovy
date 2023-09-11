@@ -18,7 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 'Send a request and returns its response'
-def response = WS.sendRequest(findTestObject('CDA_2.2-Update Profile change name into blank'))
+def response = WS.sendRequest(findTestObject('CDA_2.2-Testing API for change profile with key name value blank'))
 
 'Verify if the response from "Update Profile change name into blank" object returns the 400 status code'
 WS.verifyResponseStatusCode(response, 400)

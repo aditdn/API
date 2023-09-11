@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('CDA_2.5-Update Profile change whatsapp number 7 digit'))
+response = WS.sendRequest(findTestObject('CDA_2.5-Check response with whatsapp number 7 digit'))
 
 WS.verifyResponseStatusCode(response, 400)
 

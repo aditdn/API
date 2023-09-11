@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CDA_2.5-Update Profile change whatsapp number 7 digit</name>
+   <name>CDA_2.4-Check response with whatsapp number 14 digit</name>
    <tag></tag>
-   <elementGuidId>d642620b-83d6-46b7-b99d-ea21219fc278</elementGuidId>
+   <elementGuidId>4a03f70d-5f69-4992-b154-a64695b9d81b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <authorizationRequest>
@@ -31,7 +31,7 @@
     },
     {
       &quot;name&quot;: &quot;whatsapp&quot;,
-      &quot;value&quot;: &quot;1234567&quot;,
+      &quot;value&quot;: &quot;12345678901234&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },

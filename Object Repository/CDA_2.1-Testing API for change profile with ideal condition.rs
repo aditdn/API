@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CDA_2.1-Update Profile</name>
+   <name>CDA_2.1-Testing API for change profile with ideal condition</name>
    <tag></tag>
    <elementGuidId>1c112c47-9953-4f27-8ef7-cdad03b6b45b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>

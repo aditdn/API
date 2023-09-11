@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CDA_2.2-Update Profile change name into blank</name>
+   <name>CDA_2.5-Check response with whatsapp number 7 digit</name>
    <tag></tag>
-   <elementGuidId>ca150c7e-6266-4c40-8acd-66b4f610db3b</elementGuidId>
+   <elementGuidId>d642620b-83d6-46b7-b99d-ea21219fc278</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <authorizationRequest>
@@ -15,7 +15,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -31,7 +31,7 @@
     },
     {
       &quot;name&quot;: &quot;whatsapp&quot;,
-      &quot;value&quot;: &quot;1234567890&quot;,
+      &quot;value&quot;: &quot;1234567&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
@@ -104,6 +104,7 @@ import internal.GlobalVariable as GlobalVariable
 RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
+
 
 </verificationScript>
    <wsdlAddress></wsdlAddress>

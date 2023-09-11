@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CDA_2.3-Update Profile change whatsapp into blank</name>
+   <name>CDA_2.3-Check response with whatsapp field blank</name>
    <tag></tag>
    <elementGuidId>009ef544-a11b-40ac-87f1-ce645207c05a</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
