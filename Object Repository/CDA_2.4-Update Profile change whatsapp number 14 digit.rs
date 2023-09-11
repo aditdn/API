@@ -15,7 +15,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
+   <autoUpdateContent>true</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
@@ -31,7 +31,7 @@
     },
     {
       &quot;name&quot;: &quot;whatsapp&quot;,
-      &quot;value&quot;: &quot;1234567890&quot;,
+      &quot;value&quot;: &quot;12345678901234&quot;,
       &quot;type&quot;: &quot;Text&quot;,
       &quot;contentType&quot;: &quot;&quot;
     },
