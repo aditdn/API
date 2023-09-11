@@ -29,7 +29,7 @@
       <guid>1008e1cc-2e4e-44ac-93e3-7cf5564d9173</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CDA_2.3-Check response with phone field blank</testCaseId>
+      <testCaseId>Test Cases/CDA_2.3-Check response with whatsapp field blank</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
