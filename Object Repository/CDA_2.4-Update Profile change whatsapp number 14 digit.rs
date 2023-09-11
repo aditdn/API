@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>CDA_2.1-Update Profile</name>
+   <name>CDA_2.4-Update Profile change whatsapp number 14 digit</name>
    <tag></tag>
-   <elementGuidId>1c112c47-9953-4f27-8ef7-cdad03b6b45b</elementGuidId>
+   <elementGuidId>4a03f70d-5f69-4992-b154-a64695b9d81b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <authorizationRequest>
@@ -15,7 +15,7 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
