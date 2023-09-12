@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('CDA_2.4-Check response with whatsapp number 14 digit'))
+def response = WS.sendRequest(findTestObject('API A/CDA_2.2-Testing API for change profile with key name value blank'))
 
 WS.verifyResponseStatusCode(response, 400)
 

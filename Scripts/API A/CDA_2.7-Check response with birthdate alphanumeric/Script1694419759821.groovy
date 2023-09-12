@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('CDA_2.6-Check response with birthdate blank'))
+response = WS.sendRequest(findTestObject('API A/CDA_2.7-Check response with birthdate alphanumeric'))
 
 WS.verifyResponseStatusCode(response, 400)
 

@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('CDA_2.8-Check response with photo field fill with random text'))
+response = WS.sendRequest(findTestObject('API A/CDA_2.9-Check response with birthdate less than 7 years age'))
 
 WS.verifyResponseStatusCode(response, 400)
 
